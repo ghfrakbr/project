@@ -1,0 +1,70 @@
+body {
+  background-color: #fffce8;
+  background-image: url(gambar/gambar1.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav-item {
+  font-size: 16px;
+  color: black;
+}
+
+.nav-item .nav-link {
+  font-weight: 500;
+}
+
+.nav-item .nav-link:hover {
+  color: black;
+  font-size: 17px;
+  background-color: rgba(255, 255, 0, 0.089);
+  border-radius: 10px;
+}
+
+.nav-item > .active {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: -2px;
+}
+
+.home {
+  padding-top: 200px;
+}
+
+.home h2 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+.home h3 {
+  font-size: 18px;
+  color:rgb(0, 0, 0);
+}
+
+.jenis .card {
+  border-radius: 20px;
+}
+
+.jenis .card img {
+  height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.jenis .card #showDetail {
+  border-radius: 20px;
+}
+
+#content {
+  text-align: justify;
+}
+
+.h2 .my-4{
+  color:rgb(0, 0, 0);
+}
+
+.about .h1 {
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
